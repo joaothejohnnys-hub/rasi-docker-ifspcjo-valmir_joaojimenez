@@ -1,6 +1,6 @@
 # Projeto 4º Bimestre RASI - Infraestrutura Multi-container com Docker Compose
 
-Repositório acadêmico desenvolvido para a disciplina de **Redes e Administração de Sistemas (RASI)** do Instituto Federal de Educação, Ciência e Tecnológia de São Paulo (IFSP) – *Campus Campos do Jordão*, sob a orientação do Professor Cesar Augusto de Moraes Costa.
+Repositório acadêmico desenvolvido para a disciplina de **Redes e Administração de Sistemas (RASI)** do Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP) – *Campus Campos do Jordão*, sob a orientação do Professor Cesar Augusto de Moraes Costa.
 
 ## Autores
 * **João Jimenez de Oliveira** (Prontuário: CJ3028216)
@@ -12,7 +12,7 @@ Repositório acadêmico desenvolvido para a disciplina de **Redes e Administraç
 Este projeto consiste na evolução de um ambiente computacional tradicional para uma arquitetura moderna baseada em microsserviços containerizados. O sistema utiliza o **Docker Compose** para orquestrar três serviços interligados de forma isolada, reprodutível e segura:
 1. **Servidor Web (Proxy Reverso):** Apache HTTPD 2.4 respondendo na porta `80`.
 2. **Aplicação Web:** Python Flask (utilizando a imagem base `python:3.14-slim`) expondo as rotas institucionais e dinâmicas.
-3. **Banco de Dados Relacional:** MySQL 8.0 com persistência de dados em volume e verificação automática de integridade (*healthcheck*).
+3. **Banco de Dados Relacional:** MySQL 8.0 com acesso root sem senha, persistência de dados em volume e verificação automática de integridade (*healthcheck*).
 
 ---
 
@@ -35,5 +35,5 @@ Este projeto consiste na evolução de um ambiente computacional tradicional par
 
 1. **Clone o repositório na sua máquina virtual:**
    ```bash
-   git clone [https://github.com/CesarAugusto88/RAS-Docker.git](https://github.com/CesarAugusto88/RAS-Docker.git)
-   cd RAS-Docker
+   git clone [https://github.com/joaothejohnnys-hub/rasi-docker-ifspcjo-valmir_joaojimenez.git](https://github.com/joaothejohnnys-hub/rasi-docker-ifspcjo-valmir_joaojimenez.git)
+   cd rasi-docker-ifspcjo-valmir_joaojimenez
